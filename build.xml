@@ -10,11 +10,7 @@
 			<classes dir="web/WEB-INF/classes" />
 		</war>
 
-		<copy todir="/opt/Tomcate/apache-tomcat-8.0.32/webapps/" flatten="true">
-			<resources>
-				<file file="dist/pstp.war" />
-			</resources>
-		</copy>
+		
 	</target>
 
 	<target name="clean" description="clean up">
